@@ -63,7 +63,14 @@ main {
     gap: 8px;
 }
 
-#writing > p > a,  #lecture > p > a, #reading > p > a {
+#reading > p > .author {
+    margin-left: auto;
+}
+#reading > p > .year {
+    flex: 0 0 auto;
+}
+
+#writing > p > a,  #lecture > p > a, #reading > p > a, #reading > p > .author {
     flex: 1 1 auto;
     min-width: 0;
     overflow: hidden;
